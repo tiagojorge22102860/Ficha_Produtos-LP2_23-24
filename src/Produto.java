@@ -11,5 +11,10 @@ public class Produto {
         this.preco = preco;
         this.quantidade = quantidade;
     }
+
+    @Override
+    public String toString() {
+        return titulo + ' ' + peso + " " + preco + " " + quantidade;
+    }
 }
 
